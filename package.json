@@ -1,0 +1,30 @@
+{
+  "name": "create-tstime",
+  "version": "1.0.0",
+  "description": "A simple CLI to create a new TypeScript project",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-tstime": "index.js"
+  },
+  "scripts": {
+    "build": "unbuild",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "typescript",
+    "cli",
+    "template"
+  ],
+  "author": "leejss",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leejss/create-tstime"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3",
+    "unbuild": "^2.0.0"
+  }
+}
